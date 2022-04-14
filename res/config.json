@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "cdd836ec082da15e51545f2ea1a37015",
+      "css": "account_balance_wallet",
+      "code": 61448,
+      "src": "material"
+    },
+    {
+      "uid": "58f376c8c60c911e8cd5a65becb0d932",
+      "css": "account_box",
+      "code": 59392,
+      "src": "material"
+    }
+  ]
+}
