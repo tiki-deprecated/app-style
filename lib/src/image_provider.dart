@@ -14,4 +14,5 @@ class ImageProvider{
 
   static get tikiAndPals => _getImageAsset('tiki_and_pals');
 
+
 }
