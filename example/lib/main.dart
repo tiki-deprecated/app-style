@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:style/style.dart' as style_;
+import 'package:style/color_provider.dart';
+import 'package:style/icon_provider.dart';
+import 'package:style/size_provider.dart';
+import 'package:style/text_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +14,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    var style = style_.ImageProvider();
+    SizeProvider sizeProvider = SizeProvider();
     return MaterialApp(
         home: Scaffold(
             body : Center(
-                child: style_.ImageProvider.tikiAndPals
+                  child: Text('Hello',
+                      style: TextProvider(sizeProvider).headline1)
             )));
   }
 }
