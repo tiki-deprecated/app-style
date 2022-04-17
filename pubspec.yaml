@@ -79,4 +79,4 @@ flutter:
         - asset: packages/style/res/fonts/Segoe-UI.ttf
     - family: LoginIcons
       fonts:
-        - asset: packages/login/res/fonts/LoginIcons.ttf
+        - asset: packages/style/res/fonts/LoginIcons.ttf
