@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "TikiIcons",
   "css_prefix_text": "",
   "css_use_suffix": false,
   "hinting": true,
@@ -17,6 +17,78 @@
       "css": "account_box",
       "code": 59392,
       "src": "material"
+    },
+    {
+      "uid": "5eb07554925705653f5a05894271d8d3",
+      "css": "close",
+      "code": 59393,
+      "src": "material"
+    },
+    {
+      "uid": "2799c57f6de779678d46786054fb2dc3",
+      "css": "arrow_back",
+      "code": 59394,
+      "src": "material"
+    },
+    {
+      "uid": "d7e939581802df95a9553642f3e8c25b",
+      "css": "arrow_downward",
+      "code": 59395,
+      "src": "material"
+    },
+    {
+      "uid": "7362a605c268424e1ad473245ab339a1",
+      "css": "arrow_forward",
+      "code": 59396,
+      "src": "material"
+    },
+    {
+      "uid": "3e89ed7a1e6956c7e3ee6be343c89a4a",
+      "css": "arrow_upward",
+      "code": 59397,
+      "src": "material"
+    },
+    {
+      "uid": "30ef2b318acc1392a3a939ee7935e959",
+      "css": "keyboard_arrow_down",
+      "code": 59398,
+      "src": "material"
+    },
+    {
+      "uid": "af76421f7827c9b8dbf4330d596be014",
+      "css": "keyboard_arrow_left",
+      "code": 59399,
+      "src": "material"
+    },
+    {
+      "uid": "5a2e0f80f343a57e27915d85fefa82c6",
+      "css": "keyboard_arrow_right",
+      "code": 59400,
+      "src": "material"
+    },
+    {
+      "uid": "66f12ff8652e1a0174b9fad60e9e4288",
+      "css": "keyboard_arrow_up",
+      "code": 59401,
+      "src": "material"
+    },
+    {
+      "uid": "f9c3205df26e7778abac86183aefdc99",
+      "css": "ccw",
+      "code": 59402,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a0f0c53759f74b3c2e4ea6a9fbceb198",
+      "css": "bug_report",
+      "code": 59403,
+      "src": "material"
+    },
+    {
+      "uid": "e9f1a44e968111eab72aacfdce5a3d9f",
+      "css": "light-bulb",
+      "code": 62218,
+      "src": "octicons"
     }
   ]
 }
