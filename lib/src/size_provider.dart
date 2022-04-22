@@ -18,10 +18,12 @@ class SizeProvider{
         _deviceWidth = mediaQueryData?.size.width ?? 375,
         _deviceHeight = mediaQueryData?.size.height ?? 812;
 
-  double width(double raw) => (raw * (_deviceWidth / _stdDeviceWidth));
+  double size(num raw) => width(raw.toDouble());
 
-  double height(double raw) => (raw * (_deviceHeight / _stdDeviceHeight));
+  double width(num raw) => (raw.toDouble() * (_deviceWidth / _stdDeviceWidth));
 
-  double text(double raw) =>
-      (raw * (_deviceWidth / _stdDeviceWidth)) * _textScaleFactor;
+  double height(num raw) => (raw.toDouble() * (_deviceHeight / _stdDeviceHeight));
+
+  double text(num raw) =>
+      (raw.toDouble() * (_deviceWidth / _stdDeviceWidth)) * _textScaleFactor;
 }

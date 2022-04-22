@@ -11,13 +11,23 @@ export 'src/icon_provider.dart';
 export 'src/image_provider.dart';
 export 'src/animation_provider.dart';
 
-class Style{
+class Style {
 
   Style._();
 
-  Style.init(BuildContext context){
-    sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
+  static Style? _instance;
+
+  static get instance {
+    if(_instance == null) {
+      throw Exception('Style library was not initialized. Did you call Style.init(context)?');
+    }
+    return _instance;
   }
 
-
+  Style.init(BuildContext context){
+    if(_instance == null) {
+      sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
+      _instance = this;
+    }
+  }
 }

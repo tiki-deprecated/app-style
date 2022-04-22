@@ -20,6 +20,18 @@ class IconProvider{
   static const IconData keyboard_arrow_up = IconData(0xe809, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData ccw = IconData(0xe80a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData bug_report = IconData(0xe80b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData attention_alt = IconData(0xe80c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData check_1 = IconData(0xe80d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData mail = IconData(0xe80e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData location = IconData(0xe80f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData ok = IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData single_check = IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData large_arrow_down = IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData double_check = IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData large_arrow_up = IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData upload = IconData(0xe866, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData account_balance_wallet = IconData(0xf008, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData angle_up = IconData(0xf106, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData angle_down = IconData(0xf107, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData light_bulb = IconData(0xf30a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
