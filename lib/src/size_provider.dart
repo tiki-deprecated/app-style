@@ -4,11 +4,16 @@ class SizeProvider{
   static const double _stdDeviceWidth = 375;
   static const double _stdDeviceHeight = 812;
 
-  final double _deviceWidth;
-  final double _deviceHeight;
-  final double _textScaleFactor;
+  late final double _deviceWidth;
+  late final double _deviceHeight;
+  late final double _textScaleFactor;
 
-  SizeProvider({MediaQueryData? mediaQueryData})
+  static SizeProvider? _instance;
+  static get instance => _instance ?? SizeProvider.init();
+
+  SizeProvider._();
+
+  SizeProvider.init({MediaQueryData? mediaQueryData})
       : _textScaleFactor = mediaQueryData?.textScaleFactor ?? 1.0,
         _deviceWidth = mediaQueryData?.size.width ?? 375,
         _deviceHeight = mediaQueryData?.size.height ?? 812;
