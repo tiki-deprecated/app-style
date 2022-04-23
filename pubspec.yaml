@@ -25,7 +25,7 @@ flutter:
   fonts:
     - family: TikiIcons
       fonts:
-        - asset: packages/style/res/fonts/TikiIcons.ttf
+        - asset: packages/style/res/icons/TikiIcons.ttf
     - family: Koara
       fonts:
         - asset: packages/style/res/fonts/Koara-Bold.ttf
@@ -77,6 +77,3 @@ flutter:
     - family: SegoeUI
       fonts:
         - asset: packages/style/res/fonts/Segoe-UI.ttf
-    - family: LoginIcons
-      fonts:
-        - asset: packages/style/res/fonts/LoginIcons.ttf
