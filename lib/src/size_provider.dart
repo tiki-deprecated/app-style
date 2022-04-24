@@ -9,7 +9,7 @@ class SizeProvider{
   late final double _textScaleFactor;
 
   static SizeProvider? _instance;
-  static get instance => _instance ?? SizeProvider.init();
+  static SizeProvider get instance => _instance ?? SizeProvider.init();
 
   SizeProvider._();
 
