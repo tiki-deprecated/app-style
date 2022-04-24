@@ -14,10 +14,10 @@ export 'src/image_provider.dart';
 export 'src/size_provider.dart';
 export 'src/text_provider.dart';
 
-class Style {
-  Style._();
+class TikiStyle {
+  TikiStyle._();
 
-  Style.init(BuildContext context) {
+  TikiStyle.init(BuildContext context) {
     sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
   }
 }
