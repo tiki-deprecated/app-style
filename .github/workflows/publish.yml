@@ -16,5 +16,6 @@ jobs:
       - name: 'Publish to Pub Dev'
         uses: k-paxian/dart-package-publisher@master
         with:
+          dartVersion: 2.16.1
           accessToken: ${{ secrets.PUB_DEV_ACCESS_TOKEN }}
           refreshToken: ${{ secrets.PUB_DEV_REFRESH_TOKEN }}
