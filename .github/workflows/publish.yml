@@ -1,0 +1,20 @@
+name: Publish to Pub.dev
+
+on:
+  push:
+    tags:
+      - '*.*.*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: Production
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+
+      - name: 'Publish to Pub Dev'
+        uses: k-paxian/dart-package-publisher@master
+        with:
+          accessToken: ${{ secrets.PUB_DEV_ACCESS_TOKEN }}
+          refreshToken: ${{ secrets.PUB_DEV_REFRESH_TOKEN }}
