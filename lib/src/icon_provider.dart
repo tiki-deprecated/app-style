@@ -6,7 +6,7 @@ class IconProvider {
   IconProvider._();
 
   static const _kFontFam = 'TikiIcons';
-  static const String? _kFontPkg = 'style';
+  static const String? _kFontPkg = 'tiki_style';
 
   static const IconData arrow_down =
       IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
