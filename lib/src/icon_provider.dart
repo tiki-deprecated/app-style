@@ -29,7 +29,13 @@ class IconProvider{
   static const IconData large_arrow_down = IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData double_check = IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData large_arrow_up = IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData star = IconData(0xe815, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData help_outline = IconData(0xe816, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData content_copy = IconData(0xe817, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData logout = IconData(0xe818, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData qrcode = IconData(0xe819, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData upload = IconData(0xe866, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData user = IconData(0xf007, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData account_balance_wallet = IconData(0xf008, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData angle_up = IconData(0xf106, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData angle_down = IconData(0xf107, fontFamily: _kFontFam, fontPackage: _kFontPkg);

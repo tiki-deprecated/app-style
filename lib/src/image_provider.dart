@@ -37,4 +37,26 @@ class ImgProvider{
   static get infIicon => _getImageAsset('info_icon');
   static get yesLabel => _getImageAsset('yes_label');
   static get nopeLabel => _getImageAsset('nope_label');
+  static get badgeAccount => _getImageAsset('badge_account');
+  static get badgeAlt1Inactive => _getImageAsset('badge_alt_1_inactive');
+  static get badgeAlt2Inactive => _getImageAsset('badge_alt_2_inactive');
+  static get badgeAlt3Inactive => _getImageAsset('badge_alt_3_inactive');
+  static get badgeAlt4Inactive => _getImageAsset('badge_alt_4_inactive');
+  static get badgeAlt5Inactive => _getImageAsset('badge_alt_5_inactive');
+  static get badgeAlt6Inactive => _getImageAsset('badge_alt_6_inactive');
+  static get badgeAlt7Inactive => _getImageAsset('badge_alt_7_inactive');
+  static get badgeBetaActive => _getImageAsset('badge_beta_active');
+  static get badgeBetaAvatar => _getImageAsset('badge_beta_avatar');
+  static get badgeBetaInactive => _getImageAsset('badge_beta_inactive');
+  static get discordLogo => _getImageAsset('discord_logo');
+  static get emailSee => _getImageAsset('email_see');
+  static get facebookButton => _getImageAsset('facebook_button');
+  static get instagramButton => _getImageAsset('instagram_button');
+  static get modalTop => _getImageAsset('modal_top');
+  static get signalLogo => _getImageAsset('signal_logo');
+  static get telegramLogo => _getImageAsset('telegram_logo');
+  static get tikiNews => _getImageAsset('tiki_news');
+  static get tikiPool => _getImageAsset('tiki_pool');
+  static get tiktokButton => _getImageAsset('tiktok_button');
+  static get twitterButton => _getImageAsset('twitter_button');
 }
