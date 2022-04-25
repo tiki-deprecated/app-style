@@ -11,7 +11,11 @@ class ImgProvider {
 
   //static Future<ByteData> _imageData(name) => rootBundle.load(_keyName(name));
 
-  static Image get tikiAndPals => _getImageAsset('tiki_and_pals');
+  static Image get dataSoonApple => _getImageAsset('data_soon_apple');
+  static Image get dataSoonMore => _getImageAsset('data_soon_more');
+  static Image get dataSoonYahoo => _getImageAsset('data_soon_yahoo');
+  static Image get dataStateHappy => _getImageAsset('data_state_happy');
+  static Image get dataStateSad => _getImageAsset('data_state_sad');
   static Image get emailBlob => _getImageAsset('email_blob');
   static Image get emailPineapple => _getImageAsset('email_pineapple');
   static Image get inboxBlobBl => _getImageAsset('inbox_blob_bl');
@@ -23,9 +27,5 @@ class ImgProvider {
   static Image get recoverPineapplePizza =>
       _getImageAsset('recover_pineapple_pizza');
   static Image get termsBlobTr => _getImageAsset('terms_blob_tr');
-  static Image get dataSoonApple => _getImageAsset('data_soon_apple');
-  static Image get dataSoonYahoo => _getImageAsset('data_soon_yahoo');
-  static Image get dataSoonMore => _getImageAsset('data_soon_more');
-  static Image get dataStateHappy => _getImageAsset('data_state_happy');
-  static Image get dataStateSad => _getImageAsset('data_state_sad');
+  static Image get tikiAndPals => _getImageAsset('tiki_and_pals');
 }
