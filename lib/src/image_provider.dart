@@ -59,4 +59,5 @@ class ImgProvider{
   static get tikiPool => _getImageAsset('tiki_pool');
   static get tiktokButton => _getImageAsset('tiktok_button');
   static get twitterButton => _getImageAsset('twitter_button');
+  static get walletCard => _getImageAsset('wallet_card');
 }
