@@ -1,3 +1,7 @@
+## 0.0.7
+
+* Fixed image naming & font package declarations 
+
 ## 0.0.6
 
 * Fixed bugs with images & icons created by the updated package name

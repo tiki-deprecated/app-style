@@ -20,6 +20,13 @@ class ImgProvider {
   static Image get dataStateHappy => _getImageAsset('data_state_happy');
   static Image get dataStateSad => _getImageAsset('data_state_sad');
   static Image get discordLogo => _getImageAsset('discord_logo');
+  //static Future<ByteData> _imageData(name) => rootBundle.load(_keyName(name));
+
+  static Image get dataSoonApple => _getImageAsset('data_soon_apple');
+  static Image get dataSoonMore => _getImageAsset('data_soon_more');
+  static Image get dataSoonYahoo => _getImageAsset('data_soon_yahoo');
+  static Image get dataStateHappy => _getImageAsset('data_state_happy');
+  static Image get dataStateSad => _getImageAsset('data_state_sad');
   static Image get emailBlob => _getImageAsset('email_blob');
   static Image get emailPineapple => _getImageAsset('email_pineapple');
   static Image get emailSee => _getImageAsset('email_see');
@@ -68,4 +75,5 @@ class ImgProvider {
   );
 //static Future<ByteData> _imageData(name) => rootBundle.load(_keyName(name));
 
+  static Image get tikiAndPals => _getImageAsset('tiki_and_pals');
 }
