@@ -6,7 +6,7 @@ class ImgProvider {
 
   static Image _getImageAsset(name) => Image.asset(
         _keyName(name),
-        package: 'style',
+        package: 'tiki_style',
       );
 
   //static Future<ByteData> _imageData(name) => rootBundle.load(_keyName(name));

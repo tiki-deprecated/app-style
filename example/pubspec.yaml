@@ -30,7 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  style:
+  tiki_style:
     path: ../
 
 dev_dependencies:
