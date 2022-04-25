@@ -14,13 +14,10 @@ export 'src/image_provider.dart';
 export 'src/size_provider.dart';
 export 'src/text_provider.dart';
 
-class Style {
 class TikiStyle {
   TikiStyle._();
 
-  Style._();
-
-  static Style? _instance;
+  static TikiStyle? _instance;
 
   static get instance {
     if(_instance == null) {
@@ -29,12 +26,10 @@ class TikiStyle {
     return _instance;
   }
 
-  Style.init(BuildContext context){
-    if(_instance == null) {
+  TikiStyle.init(BuildContext context){
+    if (_instance == null) {
       sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
       _instance = this;
     }
-  TikiStyle.init(BuildContext context) {
-    sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
   }
 }

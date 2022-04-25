@@ -6,7 +6,6 @@ class IconProvider {
   IconProvider._();
 
   static const _kFontFam = 'TikiIcons';
-  static const String? _kFontPkg = 'style';
   static const String? _kFontPkg = 'tiki_style';
 
   static const IconData account_box = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -93,10 +92,6 @@ class IconProvider {
       IconData(0xe818, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData instagram =
       IconData(0xe819, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData location =
-      IconData(0xe81a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData logout =
-      IconData(0xe81b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData person =
       IconData(0xe81c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData reload =
@@ -105,8 +100,6 @@ class IconProvider {
       IconData(0xe81e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData signal =
       IconData(0xe81f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData star =
-      IconData(0xe820, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tag =
       IconData(0xe821, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData telegram =
@@ -115,8 +108,6 @@ class IconProvider {
       IconData(0xe823, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData twitter =
       IconData(0xe824, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData upload =
-      IconData(0xe825, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData wallet =
       IconData(0xe826, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData x =
