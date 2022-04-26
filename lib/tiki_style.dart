@@ -17,7 +17,19 @@ export 'src/text_provider.dart';
 class TikiStyle {
   TikiStyle._();
 
-  TikiStyle.init(BuildContext context) {
-    sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
+  static TikiStyle? _instance;
+
+  static get instance {
+    if(_instance == null) {
+      throw Exception('Style library was not initialized. Did you call Style.init(context)?');
+    }
+    return _instance;
+  }
+
+  TikiStyle.init(BuildContext context){
+    if (_instance == null) {
+      sizer.SizeProvider.init(mediaQueryData: MediaQuery.of(context));
+      _instance = this;
+    }
   }
 }
