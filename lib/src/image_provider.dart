@@ -27,6 +27,8 @@ class ImgProvider {
     repeat: ImageRepeat.noRepeat,
     alignment: Alignment.center);
   static Image get facebookButton => _getImageAsset('facebook_button');
+  static Image get gmailCircleIcon => _getImageAsset('gmail_circle_icon');
+  static Image get googleIcon => _getImageAsset('google_icon');
   static Image get iconBack => _getImageAsset('icon_back');
   static Image get inboxBlobBl => _getImageAsset('inbox_blob_bl');
   static Image get inboxBlobTr => _getImageAsset('inbox_blob_tr');
