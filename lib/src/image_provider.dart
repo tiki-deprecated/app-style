@@ -58,6 +58,7 @@ class ImgProvider {
   static Image get twitterButton => _getImageAsset('twitter_button');
   static Image get walletBanner => _getImageAsset('banner');
   static Image get walletCard => _getImageAsset('wallet_card');
+  static Image get windowsLogo => _getImageAsset('windows_logo');
   static Image get yesLabel => _getImageAsset('yes_label');
 
   static String _keyName(assetName) => 'lib/res/images/$assetName.png';

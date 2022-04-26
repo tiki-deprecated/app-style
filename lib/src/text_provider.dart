@@ -8,6 +8,8 @@ class TextProvider{
   ///Font families
   static const String familyNunitoSans = "NunitoSans";
   static const String familyKoara = "Koara";
+  static const String familySegoe = "SegoeUI";
+  static const String familyRoboto = "Roboto";
 
   ///Font sizes
   static const double sizeHeadline1 = 36;
