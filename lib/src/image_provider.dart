@@ -27,6 +27,8 @@ class ImgProvider {
     repeat: ImageRepeat.noRepeat,
     alignment: Alignment.center);
   static Image get facebookButton => _getImageAsset('facebook_button');
+  static Image get gmailCircleIcon => _getImageAsset('gmail_circle_icon');
+  static Image get googleIcon => _getImageAsset('google_icon');
   static Image get iconBack => _getImageAsset('icon_back');
   static Image get inboxBlobBl => _getImageAsset('inbox_blob_bl');
   static Image get inboxBlobTr => _getImageAsset('inbox_blob_tr');
@@ -58,6 +60,7 @@ class ImgProvider {
   static Image get twitterButton => _getImageAsset('twitter_button');
   static Image get walletBanner => _getImageAsset('banner');
   static Image get walletCard => _getImageAsset('wallet_card');
+  static Image get windowsLogo => _getImageAsset('windows_logo');
   static Image get yesLabel => _getImageAsset('yes_label');
 
   static String _keyName(assetName) => 'lib/res/images/$assetName.png';
