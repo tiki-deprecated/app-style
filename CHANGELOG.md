@@ -1,3 +1,7 @@
+## 0.0.8
+
+* Add styles for libs
+
 ## 0.0.7
 
 * Fixed image naming & font package declarations 
