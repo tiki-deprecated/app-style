@@ -1,3 +1,7 @@
+## 0.0.10   
+
+* Add spam cards styles
+
 ## 0.0.9
 
 * Add microsoft and google styles
