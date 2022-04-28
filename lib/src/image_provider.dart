@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 /// A provider for all the images used in TIKI app
 class ImgProvider {
 
+  static Image get companyAvatar => _getImageAsset('company_avatar');
   static Image get badgeAccount => _getImageAsset('badge_account');
   static Image get badgeAlt1Inactive => _getImageAsset('badge_alt_1_inactive');
   static Image get badgeAlt2Inactive => _getImageAsset('badge_alt_2_inactive');
@@ -63,9 +64,11 @@ class ImgProvider {
   static Image get windowsLogo => _getImageAsset('windows_logo');
   static Image get yesLabel => _getImageAsset('yes_label');
 
-  static String _keyName(assetName) => 'lib/res/images/$assetName.png';
+  static Image getByName(String assetName) => _getImageAsset(assetName);
 
-  static Image _getImageAsset(name) => Image.asset(
+  static String _keyName(String assetName) => 'lib/res/images/$assetName.png';
+
+  static Image _getImageAsset(String name) => Image.asset(
     _keyName(name),
     package: 'tiki_style',
   );
