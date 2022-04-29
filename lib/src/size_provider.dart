@@ -3,7 +3,16 @@ import 'package:flutter/material.dart';
 class SizeProvider{
   static const double _stdDeviceWidth = 375;
   static const double _stdDeviceHeight = 812;
+  static const num marginHeaderH = 4.6;
+  static const num marginHeaderT = 1;
+  static const num marginHeaderB = 3;
+  static const num marginContentH = 7;
+  static const num marginContentSpacingT = 2.6;
+  static const num marginInnerContentH = 8;
+  static const num marginNavT = 3;
+  static const num heightNavPx = 80;
 
+  static const num cornerRadiusW = 3.2;
   late final double _deviceWidth;
   late final double _deviceHeight;
   late final double _textScaleFactor;

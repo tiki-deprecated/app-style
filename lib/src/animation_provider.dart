@@ -7,4 +7,6 @@ class AnimationProvider{
           package: 'style', height: height, width: width);
 
   static get recoverLoading => _get("recover_loading", height: 100);
+
+  static get recoverCreating => _get("recover_creating", height: 100);
 }
