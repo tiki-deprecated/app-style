@@ -15,6 +15,7 @@ class ImgProvider {
   static Image get badgeBetaActive => _getImageAsset('badge_beta_active');
   static Image get badgeBetaAvatar => _getImageAsset('badge_beta_avatar');
   static Image get badgeBetaInactive => _getImageAsset('badge_beta_inactive');
+  static Image get badgeHeader => _getImageAsset('badge_header');
   static Image get dataSoonApple => _getImageAsset('data_soon_apple');
   static Image get dataSoonMore => _getImageAsset('data_soon_more');
   static Image get dataSoonYahoo => _getImageAsset('data_soon_yahoo');
@@ -42,6 +43,7 @@ class ImgProvider {
   static Image get introPineapple => _getImageAsset('intro_pineapple');
   static Image get modalTop => _getImageAsset('modal_top');
   static Image get nopeLabel => _getImageAsset('nope_label');
+  static Image get overlayBg => _getImageAsset('overlay_bg');
   static Image get pineappleCry => _getImageAsset('pineapple_cry');
   static Image get pineappleFloatie => _getImageAsset('pineapple_floatie');
   static Image get pineapplePizza => _getImageAsset('pineapple_pizza');
@@ -49,6 +51,7 @@ class ImgProvider {
   static Image get recoverPineapplePizza => _getImageAsset('recover_pineapple_pizza');
   static Image get refOnlyBanner => _getImageAsset('ref_only_banner');
   static Image get signalLogo => _getImageAsset('signal_logo');
+  static Image get swipeChoices => _getImageAsset('swipe_choices');
   static Image get telegramLogo => _getImageAsset('telegram_logo');
   static Image get termsBlobTr => _getImageAsset('terms_blob_tr');
   static Image get testCardLemon => _getImageAsset('test_card_lemon');

@@ -1,5 +1,6 @@
 ## 0.0.12
 
+* Add app assets
 * Add login animations
 
 ## 0.0.11
