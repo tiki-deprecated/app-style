@@ -8,6 +8,7 @@ class IconProvider {
   static const _kFontFam = 'TikiIcons';
   static const String? _kFontPkg = 'tiki_style';
 
+
   static const IconData arrow_down = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_left = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_right = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -25,7 +26,7 @@ class IconProvider {
   static const IconData calendar = IconData(0xe80e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData check_double = IconData(0xe80f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData check = IconData(0xe810, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData choices = IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData choices_1 = IconData(0xe811, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData copy = IconData(0xe812, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData discord = IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData email_outline = IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -62,8 +63,11 @@ class IconProvider {
   static const IconData globe = IconData(0xe833, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData badge = IconData(0xe834, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tag_1 = IconData(0xe835, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData bulb = IconData(0xe836, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData magnify_chart = IconData(0xe837, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData att_badge = IconData(0xe838, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData information = IconData(0xe839, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData x_mark = IconData(0xe83a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData bug = IconData(0xe83b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData money = IconData(0xe83e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
