@@ -1,3 +1,12 @@
+## 0.0.12
+
+* Add app assets
+* Add login animations
+
+## 0.0.11
+
+* Add login and user_account stykles
+
 ## 0.0.10   
 
 * Add spam cards styles
