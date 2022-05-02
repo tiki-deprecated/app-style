@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 /// A provider for all the images used in TIKI app
 class ImgProvider {
 
+  static Image get avatarPineapple => _getImageAsset('avatar_pineapple');
   static Image get companyAvatar => _getImageAsset('company_avatar');
   static Image get badgeAccount => _getImageAsset('badge_account');
   static Image get badgeAlt1Inactive => _getImageAsset('badge_alt_1_inactive');

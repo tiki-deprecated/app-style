@@ -1,3 +1,8 @@
+## 0.0.13
+
+* Add avatar pineapple
+* Add login images
+
 ## 0.0.12
 
 * Add app assets
