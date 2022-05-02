@@ -2,7 +2,7 @@ import 'package:lottie/lottie.dart';
 
 class AnimationProvider{
 
-  static _get(name, {height, width}) =>
+  static _get(String name, {double? height, double? width}) =>
       Lottie.asset("packages/style/res/animation/$name.json",
           package: 'style', height: height, width: width);
 
