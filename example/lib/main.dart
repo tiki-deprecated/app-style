@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(home: Builder(builder: (context) {
       TikiStyle.init(context);
-      return Scaffold(body: Center(child: ImgProvider.tikiAndPals));
+      return Scaffold(body: Center(child: ImgProvider.introBlob));
     }));
   }
 }
