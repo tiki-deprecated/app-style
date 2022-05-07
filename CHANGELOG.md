@@ -1,3 +1,9 @@
+## 0.0.14
+
+* Update image binaries
+* Update ImgProvider getters
+* Deprecate old getters
+
 ## 0.0.13
 
 * Add avatar pineapple
