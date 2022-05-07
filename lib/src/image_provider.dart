@@ -103,6 +103,8 @@ class ImgProvider {
   static Image get googleIcon => googleGmailLogo;
   @Deprecated('use Imgprovider.pineappleAirplane')
   static Image get inboxPineapple => pineappleAirplane;
+  @Deprecated('use Imgprovider.iconInfo')
+  static Image get infoIcon => iconInfo;
   @Deprecated('use Imgprovider.bottomSheetTop')
   static Image get modalTop => bottomSheetTop;
   @Deprecated('use Imgprovider.choiceStopThem')
