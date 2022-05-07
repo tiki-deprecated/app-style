@@ -32,13 +32,9 @@ class ImgProvider {
   static Image get facebookButton => _getImageAsset('facebook_button');
   static Image get gmailCircleIcon => _getImageAsset('gmail_circle_icon');
   static Image get googleIcon => _getImageAsset('google_icon');
-  static Image get iconBack => _getImageAsset('icon_back');
   static Image get inboxBlobBl => _getImageAsset('inbox_blob_bl');
   static Image get inboxBlobTr => _getImageAsset('inbox_blob_tr');
   static Image get inboxPineapple => _getImageAsset('inbox_pineapple');
-  static Image get inboxPpineapple => _getImageAsset('inbox_pineapple');
-  static Image get infIicon => _getImageAsset('info_icon');
-  static Image get infoIcon => _getImageAsset('info_icon');
   static Image get instagramButton => _getImageAsset('instagram_button');
   static Image get introBlob => _getImageAsset('intro_blob');
   static Image get introPineapple => _getImageAsset('intro_pineapple');
