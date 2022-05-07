@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(home: Builder(builder: (context) {
       TikiStyle.init(context);
-      return Scaffold(
+      return SafeArea(child: Scaffold(
           body: Center(
-              child: Column(
+              child: SingleChildScrollView(child: Column(
                 children:[
                   const Text('apple_soon'),
                   ImgProvider.appleSoon,
@@ -138,7 +138,7 @@ class MyApp extends StatelessWidget {
                   ImgProvider.yahooSoon,
                 ]
               )
-          ));
+          ))));
     }));
   }
 }

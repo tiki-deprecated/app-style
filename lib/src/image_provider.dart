@@ -24,7 +24,7 @@ class ImgProvider {
   static Image get emailBlob => _getImageAsset('email_blob');
   static Image get introPineapple => _getImageAsset('intro_pineapple');
   static Image get emailSee => _getImageAsset('email_see');
-  static Image get example => Image.asset(_keyName('example'), package: 'style',
+  static Image get example => Image.asset(_keyName('example_banner'), package: 'tiki_style',
       repeat: ImageRepeat.noRepeat,
       alignment: Alignment.center);
   static Image get facebookButton => _getImageAsset('facebook_button');
