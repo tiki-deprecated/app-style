@@ -1,3 +1,7 @@
+## 0.0.17
+
+* Fixed animation provider bugs
+
 ## 0.0.16
 
 * Fixed missing/incorrect pineapples

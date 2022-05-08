@@ -1,6 +1,6 @@
 name: tiki_style
 description: Tiki Style Library
-version: 0.0.16
+version: 0.0.17
 homepage: https://mytiki.com
 repository: https://github.com/tiki/style
 issue_tracker: https://github.com/tiki/style/issues
@@ -22,6 +22,7 @@ dev_dependencies:
 flutter:
   assets:
     - lib/res/images/
+    - lib/res/animation/
   fonts:
     - family: TikiIcons
       fonts:
