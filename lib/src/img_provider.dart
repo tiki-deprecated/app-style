@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) TIKI Inc.
+ * MIT license. See LICENSE file in root directory.
+ */
+
 import 'package:flutter/material.dart';
 
 /// A provider for all the images used in TIKI app
@@ -23,9 +28,9 @@ class ImgProvider {
   static Image get companyAvatar => _getImageAsset('company_avatar');
   static Image get discordLogo => _getImageAsset('discord_logo');
   static Image get emailBlob => _getImageAsset('email_blob');
-  static Image get introPineapple => _getImageAsset('intro_pineapple');
   static Image get emailSee => _getImageAsset('email_see');
-  static Image get example => Image.asset(_keyName('example_banner'), package: 'tiki_style',
+  static Image get example => Image.asset(_keyName('example_banner'),
+      package: 'tiki_style',
       repeat: ImageRepeat.noRepeat,
       alignment: Alignment.center);
   static Image get facebookButton => _getImageAsset('facebook_button');
@@ -39,8 +44,10 @@ class ImgProvider {
   static Image get introBlob => _getImageAsset('intro_blob');
   static Image get lemon => _getImageAsset('lemon');
   static Image get menuRibbon => _getImageAsset('menu_ribbon');
-  static Image get microsoftWindowsLogo => _getImageAsset('microsoft_windows_logo');
-  static Image get microsoftWindowsRound => _getImageAsset('microsoft_windows_round');
+  static Image get microsoftWindowsLogo =>
+      _getImageAsset('microsoft_windows_logo');
+  static Image get microsoftWindowsRound =>
+      _getImageAsset('microsoft_windows_round');
   static Image get moreSoon => _getImageAsset('more_soon');
   static Image get overlayBg => _getImageAsset('overlay');
   static Image get pineappleAirplane => _getImageAsset('pineapple_airplane');
@@ -51,6 +58,8 @@ class ImgProvider {
   static Image get pineappleNews => _getImageAsset('pineapple_news');
   static Image get pineapplePizza => _getImageAsset('pineapple_pizza');
   static Image get pineappleSad => _getImageAsset('pineapple_sad');
+  static Image get pineappleLeanIn => _getImageAsset('pineapple_lean_in');
+  static Image get pineappleWave => _getImageAsset('pineapple_wave');
   static Image get refOnlyBanner => _getImageAsset('ref_only_banner');
   static Image get signalLogo => _getImageAsset('signal_logo');
   static Image get swipeCardSample => _getImageAsset('swipe_card_sample');
@@ -63,74 +72,73 @@ class ImgProvider {
   static Image get watermelonHappy => _getImageAsset('watermelon_happy');
   static Image get yahooSoon => _getImageAsset('yahoo_soon');
 
-
-  @Deprecated('use Imgprovider.badgeBeta')
+  @Deprecated('use ImgProvider.badgeBeta')
   static Image get badgeAccount => headerBarRibbon;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt1Inactive => badgeOff1;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt2Inactive => badgeOff2;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt3Inactive => badgeOff3;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt4Inactive => badgeOff4;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt5Inactive => badgeOff5;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive')
   static Image get badgeAlt6Inactive => badgeOff6;
-  @Deprecated('use Imgprovider.badgeAlt1Inactive7')
+  @Deprecated('use ImgProvider.badgeAlt1Inactive7')
   static Image get badgeAlt7Inactive => badgeOff7;
-  @Deprecated('use Imgprovider.badgeBeta')
+  @Deprecated('use ImgProvider.badgeBeta')
   static Image get badgeBetaActive => badgeBeta;
-  @Deprecated('use Imgprovider.avatarBeta')
+  @Deprecated('use ImgProvider.avatarBeta')
   static Image get badgeBetaAvatar => avatarBeta;
-  @Deprecated('use Imgprovider.badgeBetaOff')
+  @Deprecated('use ImgProvider.badgeBetaOff')
   static Image get badgeBetaInactive => badgeBetaOff;
-  @Deprecated('use Imgprovider.')
+  @Deprecated('use ImgProvider.')
   static Image get badgeHeader => _getImageAsset('badge_header');
-  @Deprecated('use Imgprovider.appleSoon')
+  @Deprecated('use ImgProvider.appleSoon')
   static Image get dataSoonApple => appleSoon;
-  @Deprecated('use Imgprovider.moreSoon')
+  @Deprecated('use ImgProvider.moreSoon')
   static Image get dataSoonMore => moreSoon;
-  @Deprecated('use Imgprovider.yahooSoon')
+  @Deprecated('use ImgProvider.yahooSoon')
   static Image get dataSoonYahoo => yahooSoon;
-  @Deprecated('use Imgprovider.pineappleHappy')
+  @Deprecated('use ImgProvider.pineappleHappy')
   static Image get dataStateHappy => pineappleHappy;
-  @Deprecated('use Imgprovider.pineappleSad')
+  @Deprecated('use ImgProvider.pineappleSad')
   static Image get dataStateSad => pineappleSad;
-  @Deprecated('use Imgprovider.googleGmailRound')
+  @Deprecated('use ImgProvider.googleGmailRound')
   static Image get gmailCircleIcon => googleGmailRound;
-  @Deprecated('use Imgprovider.googleGmailLogo')
+  @Deprecated('use ImgProvider.googleGmailLogo')
   static Image get googleIcon => googleGmailLogo;
-  @Deprecated('use Imgprovider.pineappleAirplane')
+  @Deprecated('use ImgProvider.pineappleAirplane')
   static Image get inboxPineapple => pineappleAirplane;
-  @Deprecated('use Imgprovider.iconInfo')
+  @Deprecated('use ImgProvider.iconInfo')
   static Image get infoIcon => iconInfo;
-  @Deprecated('use Imgprovider.bottomSheetTop')
+  @Deprecated('use ImgProvider.bottomSheetTop')
   static Image get modalTop => bottomSheetTop;
-  @Deprecated('use Imgprovider.choiceStopThem')
+  @Deprecated('use ImgProvider.choiceStopThem')
   static Image get nopeLabel => choiceStopThem;
-  @Deprecated('use Imgprovider.avocadoSad')
+  @Deprecated('use ImgProvider.avocadoSad')
   static Image get recoverAvocado => avocadoSad;
-  @Deprecated('use Imgprovider.pineapplePizza')
+  @Deprecated('use ImgProvider.pineapplePizza')
   static Image get recoverPineapplePizza => pineapplePizza;
-  @Deprecated('use Imgprovider.swipeCardSample')
+  @Deprecated('use ImgProvider.swipeCardSample')
   static Image get swipeChoices => swipeCardSample;
-  @Deprecated('use Imgprovider.lemon')
+  @Deprecated('use ImgProvider.lemon')
   static Image get testCardLemon => lemon;
-  @Deprecated('use Imgprovider.pineappleHappyAlt')
+  @Deprecated('use ImgProvider.pineappleHappyAlt')
   static Image get testCardPineapple => pineappleHappyAlt;
-  @Deprecated('use Imgprovider.watermelonHappy')
+  @Deprecated('use ImgProvider.watermelonHappy')
   static Image get testCardWatermelon => watermelonHappy;
-  @Deprecated('use Imgprovider.pineappleNews')
+  @Deprecated('use ImgProvider.pineappleNews')
   static Image get tikiNews => pineappleNews;
-  @Deprecated('use Imgprovider.pineappleFloatie')
+  @Deprecated('use ImgProvider.pineappleFloatie')
   static Image get tikiPool => pineappleFloatie;
-  @Deprecated('use Imgprovider.walletCard')
+  @Deprecated('use ImgProvider.walletCard')
   static Image get walletBanner => walletCard;
-  @Deprecated('use Imgprovider.microsoftWindowsLogo')
+  @Deprecated('use ImgProvider.microsoftWindowsLogo')
   static Image get windowsLogo => microsoftWindowsLogo;
-  @Deprecated('use Imgprovider.choiceKeepThem')
+  @Deprecated('use ImgProvider.choiceKeepThem')
   static Image get yesLabel => choiceKeepThem;
 
   static Image getByName(String assetName) => _getImageAsset(assetName);
@@ -138,12 +146,9 @@ class ImgProvider {
   static String _keyName(String assetName) => 'lib/res/images/$assetName.png';
 
   static Image _getImageAsset(String name) => Image.asset(
-    _keyName(name),
-    package: 'tiki_style',
-  );
-
-  
+        _keyName(name),
+        package: 'tiki_style',
+      );
 
   //static Future<ByteData> _imageData(name) => rootBundle.load(_keyName(name));
-
 }
