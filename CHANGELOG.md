@@ -1,3 +1,9 @@
+## 0.0.16
+
+* Fixed missing/incorrect pineapples
+* Fixed img provider filename
+* Added missing copyrights
+
 ## 0.0.15
 
 * Fixed naming issue with lemon img
