@@ -1,3 +1,9 @@
+## 0.0.15
+
+* Fixed naming issue with lemon img
+* Added missing header badge img
+* Added convenience static for package name to text provider
+
 ## 0.0.14
 
 * Update image binaries

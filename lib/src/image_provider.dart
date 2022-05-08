@@ -15,6 +15,7 @@ class ImgProvider {
   static Image get badgeOff5 => _getImageAsset('badge_off_5');
   static Image get badgeOff6 => _getImageAsset('badge_off_6');
   static Image get badgeOff7 => _getImageAsset('badge_off_7');
+  static Image get badgetHeader => _getImageAsset('badge_header');
   static Image get bannerCyan => _getImageAsset('banner_cyan');
   static Image get bottomSheetTop => _getImageAsset('bottom_sheet_top');
   static Image get choiceKeepThem => _getImageAsset('choice_keep_them');
