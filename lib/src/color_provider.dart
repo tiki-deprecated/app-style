@@ -1,6 +1,11 @@
+/*
+ * Copyright (c) TIKI Inc.
+ * MIT license. See LICENSE file in root directory.
+ */
+
 import 'dart:ui';
 
-class ColorProvider{
+class ColorProvider {
   /// Main colours
   static const Color tikiBlue = Color(0xFF00133F);
   static const Color tikiPurple = Color(0xFF27002E);

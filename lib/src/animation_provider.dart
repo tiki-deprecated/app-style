@@ -1,7 +1,11 @@
+/*
+ * Copyright (c) TIKI Inc.
+ * MIT license. See LICENSE file in root directory.
+ */
+
 import 'package:lottie/lottie.dart';
 
-class AnimationProvider{
-
+class AnimationProvider {
   static _get(String name, {double? height, double? width}) =>
       Lottie.asset("packages/style/res/animation/$name.json",
           package: 'style', height: height, width: width);

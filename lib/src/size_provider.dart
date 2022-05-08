@@ -1,6 +1,11 @@
+/*
+ * Copyright (c) TIKI Inc.
+ * MIT license. See LICENSE file in root directory.
+ */
+
 import 'package:flutter/material.dart';
 
-class SizeProvider{
+class SizeProvider {
   static const double _stdDeviceWidth = 375;
   static const double _stdDeviceHeight = 812;
   static const num marginHeaderH = 4.6;
@@ -31,7 +36,8 @@ class SizeProvider{
 
   double width(num raw) => (raw.toDouble() * (_deviceWidth / _stdDeviceWidth));
 
-  double height(num raw) => (raw.toDouble() * (_deviceHeight / _stdDeviceHeight));
+  double height(num raw) =>
+      (raw.toDouble() * (_deviceHeight / _stdDeviceHeight));
 
   double text(num raw) =>
       (raw.toDouble() * (_deviceWidth / _stdDeviceWidth)) * _textScaleFactor;
