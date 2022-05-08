@@ -137,6 +137,8 @@ class MyApp extends StatelessWidget {
         ImgProvider.watermelonHappy,
         const Text('yahoo_soon'),
         ImgProvider.yahooSoon,
+        const Text('recover_creating'),
+        AnimationProvider.recoverCreating,
       ])))));
     }));
   }

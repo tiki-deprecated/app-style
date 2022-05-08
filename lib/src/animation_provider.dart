@@ -6,11 +6,9 @@
 import 'package:lottie/lottie.dart';
 
 class AnimationProvider {
-  static _get(String name, {double? height, double? width}) =>
-      Lottie.asset("packages/style/res/animation/$name.json",
-          package: 'style', height: height, width: width);
+  static _get(String name) =>
+      Lottie.asset('lib/res/animation/$name.json', package: 'tiki_style');
 
-  static get recoverLoading => _get("recover_loading", height: 100);
-
-  static get recoverCreating => _get("recover_creating", height: 100);
+  static LottieBuilder get recoverLoading => _get('recover-loading');
+  static LottieBuilder get recoverCreating => _get('recover-creating');
 }
