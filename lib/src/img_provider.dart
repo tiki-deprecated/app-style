@@ -70,6 +70,9 @@ class ImgProvider {
   static Image get twitterButton => _getImageAsset('twitter_button');
   static Image get walletCard => _getImageAsset('wallet_card');
   static Image get watermelonHappy => _getImageAsset('watermelon_happy');
+  static Image get whatWritten => _getImageAsset('what_written');
+  static Image get whatYouDo => _getImageAsset('what_you_do');
+  static Image get whereYouAre => _getImageAsset('where_you_are');
   static Image get yahooSoon => _getImageAsset('yahoo_soon');
 
   @Deprecated('use ImgProvider.badgeBeta')
