@@ -1,3 +1,8 @@
+## 0.0.18
+
+* Add images for info cards
+* Fix wallet_card size
+
 ## 0.0.17
 
 * Fixed animation provider bugs
