@@ -1,3 +1,7 @@
+## 0.0.19
+
+* Added data nft icons
+
 ## 0.0.18
 
 * Add images for info cards

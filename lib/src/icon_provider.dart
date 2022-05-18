@@ -55,7 +55,7 @@ class IconProvider {
       IconData(0xe813, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData email_outline =
       IconData(0xe814, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData email_solid =
+  static const IconData company_solid =
       IconData(0xe815, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData eye =
       IconData(0xe816, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -133,6 +133,12 @@ class IconProvider {
       IconData(0xe83a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData bug =
       IconData(0xe83b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData click_solid =
+      IconData(0xe83d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData money =
       IconData(0xe83e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData email_solid =
+      IconData(0xe83f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData calendar_solid =
+      IconData(0xe840, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
