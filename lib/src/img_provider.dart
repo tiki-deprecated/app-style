@@ -23,6 +23,7 @@ class ImgProvider {
   static Image get badgetHeader => _getImageAsset('badge_header');
   static Image get bannerCyan => _getImageAsset('banner_cyan');
   static Image get bottomSheetTop => _getImageAsset('bottom_sheet_top');
+  static Image get confetti => _getImageAsset('confetti');
   static Image get choiceKeepThem => _getImageAsset('choice_keep_them');
   static Image get choiceStopThem => _getImageAsset('choice_stop_them');
   static Image get companyAvatar => _getImageAsset('company_avatar');
