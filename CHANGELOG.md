@@ -1,3 +1,7 @@
+## 0.0.20
+
+* Add confetti image
+
 ## 0.0.19
 
 * Added data nft icons
